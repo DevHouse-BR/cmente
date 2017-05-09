@@ -188,14 +188,11 @@
 
 				if ( ! empty( $zerif_copyright ) ) {
 					echo '<p id="zerif-copyright">' . wp_kses_post( $zerif_copyright ) . '</p>';
-					//echo '<p id="zerif-copyright">Desenvolvido por <a target="_blank" href="https://www.devhouse.com.br">DevHouse</a></p>';
 				} elseif ( is_customize_preview() ) {
-					//echo '<p id="zerif-copyright" class="zerif_hidden_if_not_customizer"></p>';
-					echo '<p id="zerif-copyright">Desenvolvido por <a target="_blank" href="https://www.devhouse.com.br">DevHouse</a></p>';
+					echo '<p id="zerif-copyright" class="zerif_hidden_if_not_customizer"></p>';
 				}
 
-				//echo '<div class="zerif-copyright-box"><a class="zerif-copyright" rel="nofollow">Zerif Lite </a>' . __( 'developed by', 'zerif-lite' ) . ' ' . '<a class="zerif-copyright" href="' . esc_url( 'https://themeisle.com' ) . '" ' . $attribut_new_tab . ' rel="nofollow"> ' . __( 'ThemeIsle', 'zerif-lite' ) . '</a></div>';
-				echo '<div class="zerif-copyright-box">Desenvolvido por <a target="_blank" href="https://www.devhouse.com.br">DevHouse</a></div>';
+				echo '<div class="zerif-copyright-box"><a class="zerif-copyright" rel="nofollow">Zerif Lite </a>' . __( 'developed by', 'zerif-lite' ) . ' ' . '<a class="zerif-copyright" href="' . esc_url( 'https://themeisle.com' ) . '" ' . $attribut_new_tab . ' rel="nofollow"> ' . __( 'ThemeIsle', 'zerif-lite' ) . '</a></div>';
 
 				echo '</div>';
 

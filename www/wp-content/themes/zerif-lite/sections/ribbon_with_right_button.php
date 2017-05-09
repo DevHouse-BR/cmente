@@ -41,11 +41,7 @@
 
 						echo '<div class="col-md-3" data-scrollreveal="enter right after 0s over 1s">';
 
-							//echo '<a href="'.esc_url( $zerif_ribbonright_buttonlink ).'" class="btn btn-primary custom-button red-btn">'.wp_kses_post( $zerif_ribbonright_buttonlabel ).'</a>';
-							echo '<a href="javascript: showMailingPopUp();" class="btn btn-primary custom-button red-btn">'.wp_kses_post($zerif_ribbonright_buttonlabel).'</a>';
-							
-							echo '<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">function showMailingPopUp() { require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"f7c4a3ba76d6e064d8fdbd369","lid":"e6add600eb"}) }); document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC"; }</script>';
-
+							echo '<a href="'.esc_url( $zerif_ribbonright_buttonlink ).'" class="btn btn-primary custom-button red-btn">'.wp_kses_post( $zerif_ribbonright_buttonlabel ).'</a>';
 
 						echo '</div>';
 
@@ -97,10 +93,7 @@
 						echo '<div class="col-md-3" data-scrollreveal="enter right after 0s over 1s">';
 
 
-							//echo '<a href="'.esc_url($zerif_ribbonright_buttonlink).'" class="btn btn-primary custom-button red-btn">'.wp_kses_post($zerif_ribbonright_buttonlabel).'</a>';
-							echo '<a href="javascript: showMailingPopUp();" class="btn btn-primary custom-button red-btn">'.wp_kses_post($zerif_ribbonright_buttonlabel).'</a>';
-							
-							echo '<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">function showMailingPopUp() { require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"f7c4a3ba76d6e064d8fdbd369","lid":"e6add600eb"}) }); document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC"; }</script>';
+							echo '<a href="'.esc_url($zerif_ribbonright_buttonlink).'" class="btn btn-primary custom-button red-btn">'.wp_kses_post($zerif_ribbonright_buttonlabel).'</a>';
 
 
 						echo '</div>';

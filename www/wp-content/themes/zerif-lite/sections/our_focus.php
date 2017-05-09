@@ -1,6 +1,6 @@
 <?php zerif_before_our_focus_trigger(); ?>
 
-<section class="focus" id="projeto">
+<section class="focus" id="focus">
 
 	<?php zerif_top_our_focus_trigger(); ?>
 

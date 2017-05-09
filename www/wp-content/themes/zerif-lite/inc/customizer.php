@@ -1625,7 +1625,7 @@ function zerif_customize_register( $wp_customize ) {
 
 	/* button link */
 	$wp_customize->add_setting( 'zerif_ribbonright_buttonlink', array(
-		'sanitize_callback' => '',
+		'sanitize_callback' => 'esc_url_raw',
 		'default' => $zerif_ribbonright_buttonlink_default,
 		'transport'         => 'postMessage'
 	) );

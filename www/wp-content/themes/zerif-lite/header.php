@@ -57,14 +57,6 @@
 <header id="home" class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
 
 	<div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner">
-	    
-	    
-	    
-	    <ul class="social social-menu"><li id="facebook"><a target="_blank" href="https://www.facebook.com/cmenteincubadora/"><span class="sr-only">Link do Facebook</span> <i class="fa fa-facebook"></i></a></li><li id="linkedin"><a target="_blank" href="https://www.linkedin.com/company-beta/16184111/"><span class="sr-only">Link do LinkedIn</span> <i class="fa fa-linkedin"></i></a></li></ul>
-	    
-	    
-	    
-	    
 
 		<div class="container">
 
